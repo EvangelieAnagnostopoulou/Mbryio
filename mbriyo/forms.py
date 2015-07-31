@@ -1,4 +1,3 @@
-__author__ = 'evangelie'
 from django import forms
 from mbriyo.models import Models, Station
 

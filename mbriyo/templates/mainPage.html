@@ -1,11 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+<form method="post" name="frm">{% csrf_token %}
 
-<div>
-    <p>The time now is:{{time}}</p>
-    <p>I am currenty near:</p>
-    <p>Train arriving at::</p>
-</div>
+    <div>
+        <p>The time now is: {{time}}</p>
+        <p>I am currenty near:</p>
+        <select name="station">
+          <option value="Syntagma">Syntagma</option>
+          <option value="Evangelismos">Evangelismos</option>
+          <option value="Monasthraki">Monasthraki</option>
+        </select>
+    </div>
+     <input id="select" type="submit" value="select">
+    </form>
 
 {% endblock %}

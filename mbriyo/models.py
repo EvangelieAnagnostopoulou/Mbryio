@@ -1,4 +1,3 @@
-__author__ = 'evangelie'
 # This is an auto-generated Django model module.
 # You'll have to do the following manually to clean this up:
 #   * Rearrange models' order
@@ -8,7 +7,7 @@ __author__ = 'evangelie'
 #
 # Also note: You'll have to insert the output of 'django-admin.py sqlcustom [app_label]'
 # into your database.
-#from __future__ import unicode_literals
+from __future__ import unicode_literals
 from django.db import models
 
 
